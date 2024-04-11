@@ -1,0 +1,13 @@
+---
+title: ok new nowwwww
+author: Mahmood Alsawad
+date: '2024-04-11'
+slug: []
+categories: []
+tags: []
+description: ~
+---
+
+heelloooooo
+
+![](images/Screenshot 2024-04-11 at 10.12.44 AM.png)

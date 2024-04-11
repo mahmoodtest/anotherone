@@ -1,0 +1,70 @@
+title: Awesome Hugo blog
+baseURL: https://hba.sid.one/
+languageCode: en-us
+defaultContentLanguage: en-gb
+enableEmoji: yes
+ignoreErrors: additional-script-loading-error
+theme: hugo-blog-awesome
+services:
+  disqus:
+    shortname: ''
+  googleAnalytics:
+    id: ''
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    noClasses: no
+Languages:
+  en-gb:
+    contentDir: content/en
+    languageCode: en-gb
+    languageName: English
+    menu:
+      main:
+        - name: Home
+          pageRef: /
+          url: /
+          weight: 10
+        - name: Posts
+          pageRef: posts
+          url: /posts/
+          weight: 20
+        - name: About
+          pageRef: about
+          url: /about/
+          weight: 30
+    params:
+      additionalScripts:
+        - js/custom.js
+        - js/custom-2.js
+      author:
+        avatar: avatar.jpg
+        description: A fast, minimalistic Hugo theme with light and dark mode support,
+          for running a personal site or blog.
+        intro: Awesome hugo blog
+        name: Sidharth R
+      dateFormat: ''
+      defaultColor: dark
+      description: Minimal Hugo blog theme with light and dark mode support
+      goToTop: yes
+      mainSections: posts
+      rssFeedDescription: summary
+      sitename: Awesome hugo blog
+      toc: yes
+      tocOpen: no
+      webmanifest:
+        background_color: '#fff'
+        display: standalone
+        name: sitename
+        short_name: sitename
+        start_url: /
+        theme_color: '#434648'
+    weight: 1
+params:
+  browserconfig:
+    TileColor: '#2d89ef'
+  socialIcons:
+    - name: github
+      url: https://github.com/hugo-sid
